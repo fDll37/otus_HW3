@@ -7,7 +7,7 @@
 import SwiftUI
 import Foundation
 
-class Storage {
+class Storage:ObservableObject {
     @Published var dataStorage: [Data] = [Data]()
     
     func saveData(_ data: Data) {

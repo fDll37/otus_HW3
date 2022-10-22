@@ -8,6 +8,11 @@
 import Foundation
 
 class  Configurator {
+    
+    private init() {
+        
+    }
+    
     static let shared = Configurator()
     
     func registerServices() {

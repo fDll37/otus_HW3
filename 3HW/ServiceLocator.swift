@@ -8,6 +8,11 @@
 import Foundation
 
 class ServiceLocator {
+    
+    private init(){
+        
+    }
+    
     static let shared = ServiceLocator()
     
     lazy var servicesStorage: [String: Any] = {
